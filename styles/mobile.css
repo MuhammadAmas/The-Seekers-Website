@@ -50,9 +50,10 @@
         display: flex;
         flex-direction: column;
     }
-    .videos video{
+    .videos>div{
         width: 70%;
     }
+    
 
     .footer-content {
         display: flex;
