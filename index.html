@@ -81,26 +81,28 @@
             <h1>Contact Us</h1>
             <form action="https://formsubmit.co/theseekersways@gmail.com" method="POST">
                 <div class="inputbox">
-                    <input type="text" required="required" />
+                    <input type="text" name="name" required="required" />
                     <label>Name</label>
                 </div>
                 <div class="inputbox">
-                    <input type="email" required="required" />
+                    <input type="email" name="email" required="required" />
                     <label>Email</label>
                 </div>
                 <div class="inputbox">
-                    <input type="text" required="required" />
+                    <input type="text" name="subject" required="required" />
                     <label>Subject</label>
                 </div>
                 <div class="inputbox">
-                    <textarea id="message" rows="5" required="required"></textarea>
-                    <label>Type Your Message/Suggestion...</label>
+                    <textarea name="message" id="message" rows="5" required="required"></textarea>
+                    <label>Type Your Message...</label>
                 </div>
                 <div class="submit">
                     <button type="submit" value="Send" class="submit-btn">SEND</button>
                 </div>
+
                 <input type="hidden" name="_next" value="https://theseekers.netlify.app/thanks.html" />
                 <input type="hidden" name="_captcha" value="false" />
+
             </form>
 
     </section>
