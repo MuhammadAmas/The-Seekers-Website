@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+    section{
+        margin: auto 15px;
+    }
+
     h1,
     h2 {
         font-size: 2rem;
