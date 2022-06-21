@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: "Open Sans", sans-serif; */
 }
 
 html {
@@ -19,6 +18,8 @@ body {
     scrollbar-width: none;
     background-color: var(--black);
     color: var(--white);
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 3px;
 }
 
 a {
@@ -35,6 +36,7 @@ h1,
 h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
+    font-family: 'Graduate', cursive;
 }
 
 .navbar {
@@ -50,7 +52,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     gap: 0.5em;
-    font-family: 'Pinyon Script', cursive;
+    font-family: 'Monsieur La Doulaise', cursive;
 }
 
 .navbar img {
@@ -100,6 +102,7 @@ h2 {
 .intro h2{
     text-align: center;
     margin: 2.5em auto;
+    font-family: 'Pinyon Script', cursive;
 }
 
 .about-us {
