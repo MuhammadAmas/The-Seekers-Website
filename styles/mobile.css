@@ -70,6 +70,13 @@
         width: 70%;
     }
 
+    .quotes{
+        display: flex;
+        flex-direction: column;
+    }
+    .quotes > div {
+        max-width: 60%;
+    }
 
     .footer-content {
         display: flex;
