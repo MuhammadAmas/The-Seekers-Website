@@ -93,6 +93,11 @@ h2 {
     margin-right: 15px;
 }
 
+.intro h2{
+    text-align: center;
+    margin: 2.5em auto;
+}
+
 .about-us {
     max-width: 60%;
     text-align: center;
