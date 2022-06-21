@@ -1,6 +1,8 @@
 @media (max-width: 768px) {
 
-
+    h1,h2{
+        font-size: 2rem;
+    }
     .hamburger{
         display: block;
     }
@@ -21,34 +23,35 @@
     .nav-menu {
         position: absolute;
         left: -100%;
-        top: 70px;
+        top: 90px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--darkBlue);
+        background-color: var(--black);
         color: var(--white);
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
+    .navbar ul li a{
+        color: var(--white);
 
+
+    }
     .nav-item {
         margin: 16px 0;
     }
-
-    .navbar a {
-        color: var(--white);
-    }
-
+    
     .nav-menu.active {
         left: 0;
     }
 
+    
     .videos{
         display: flex;
         flex-direction: column;
     }
     .videos video{
-        width: 60%;
+        width: 70%;
     }
 
     .footer-content {

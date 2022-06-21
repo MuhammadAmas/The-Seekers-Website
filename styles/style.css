@@ -32,22 +32,30 @@ h1, h2{
 }
 
 .navbar{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom:  2em;
     padding: 0.5em;
 }
-
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
 .navbar img{
     width: 80px; 
-    
 }
 
-.navbar ul{
+
+.nav-menu{
     background-color: var(--white);
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 4em;
 }
 
 .navbar ul li a {
@@ -56,6 +64,7 @@ h1, h2{
     font-size: 1.2rem;
     font-weight: bold;
     border-bottom: 2px solid var(--black);
+
 }
 
 .navbar ul li a:hover{
@@ -163,13 +172,19 @@ footer{
 }
 .footer-logo{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 2em;
 }
 .footer-logo img{
     max-width:150px;    
     max-height: 150px;
-    margin: auto 0;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
 }
 .more-info{
     column-count:2;
