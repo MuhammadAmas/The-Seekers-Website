@@ -51,6 +51,9 @@
 
     .about-us {
         max-width: 90%;
+    }
+
+    .about-us p {
         font-size: 0.8rem;
     }
 
