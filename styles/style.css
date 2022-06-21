@@ -60,7 +60,7 @@ h2 {
 }
 
 .nav-menu {
-  
+
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ h2 {
 
 .navbar ul li a {
     text-decoration: none;
- 
+
     font-size: 1.2rem;
     font-weight: bold;
     border-bottom: 2px solid var(--white);
@@ -79,8 +79,8 @@ h2 {
 .navbar ul li a:hover {
     border-bottom: 0;
     transition: 0.3s;
-    opacity: 0.5;  
-    
+    opacity: 0.5;
+
 }
 
 .hamburger {
@@ -99,7 +99,7 @@ h2 {
     margin-right: 15px;
 }
 
-.intro h2{
+.intro h2 {
     text-align: center;
     margin: 2.5em auto;
     font-family: 'Pinyon Script', cursive;
@@ -144,7 +144,7 @@ h2 {
     position: relative;
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
-   
+
 }
 
 .contact-box h1 {
@@ -193,10 +193,11 @@ h2 {
     box-shadow: 0px 0px 10px 0px rgba(100%, 100%, 100%, 0.5);
 
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background-color: var(--black);
     color: var(--white);
-    
+
 
 }
 
@@ -246,7 +247,7 @@ footer {
 
 .more-info a:hover {
     transition: 0.3s;
-    opacity: 0.5;   
+    opacity: 0.5;
 }
 
 .social-media {

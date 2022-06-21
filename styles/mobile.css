@@ -1,9 +1,11 @@
 @media (max-width: 768px) {
 
-    h1,h2{
+    h1,
+    h2 {
         font-size: 2rem;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
     }
 
@@ -19,7 +21,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    
+
     .nav-menu {
         position: absolute;
         left: -100%;
@@ -32,30 +34,34 @@
         text-align: center;
         transition: 0.3s;
     }
-    .navbar ul li a{
+
+    .navbar ul li a {
         color: var(--black);
 
 
     }
+
     .nav-item {
         margin: 16px 0;
     }
-    
+
     .nav-menu.active {
         left: 0;
     }
+
     .about-us {
         max-width: 90%;
     }
-    
-    .videos{
+
+    .videos {
         display: flex;
         flex-direction: column;
     }
-    .videos>div{
+
+    .videos>div {
         width: 70%;
     }
-    
+
 
     .footer-content {
         display: flex;
@@ -64,14 +70,15 @@
         justify-content: center;
         gap: 2em;
     }
-    .more-info{
-        column-count:1;
+
+    .more-info {
+        column-count: 1;
         column-gap: 12em;
         margin: auto 0;
         text-align: center;
     }
 
-    .social-media{
+    .social-media {
         display: flex;
         flex-direction: row;
         align-items: center;
