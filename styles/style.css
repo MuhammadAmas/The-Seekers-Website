@@ -126,10 +126,12 @@ h1, h2{
     position: relative;
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
+
+}
+.contact-box h1{
     text-align: center;
 
 }
-
 .contact-box .inputbox input,
 .contact-box .inputbox textarea {
     position: relative;
