@@ -1,4 +1,7 @@
 :root {
+    /* --black: #000;
+    --white: #fff;
+    --lightBlue: #3065f8; */
     --black: #000;
     --white: #fff;
     --lightBlue: #3065f8;
@@ -17,6 +20,8 @@ html {
 
 body {
     scrollbar-width: none;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 a {
@@ -55,7 +60,7 @@ h2 {
 }
 
 .nav-menu {
-    background-color: var(--white);
+  
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -65,10 +70,10 @@ h2 {
 
 .navbar ul li a {
     text-decoration: none;
-    color: var(--black);
+ 
     font-size: 1.2rem;
     font-weight: bold;
-    border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--white);
 }
 
 .navbar ul li a:hover {
@@ -89,7 +94,7 @@ h2 {
     margin: 5px auto;
     --webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--black);
+    background-color: var(--white);
     margin-right: 15px;
 }
 
@@ -120,8 +125,8 @@ h2 {
     display: block;
     width: 25%;
     border-radius: 10px;
-    background-color: var(--white);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    background-color: var(--black);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
     padding: 0.8em;
     text-align: center;
 }
@@ -137,6 +142,7 @@ h2 {
     position: relative;
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
+   
 }
 
 .contact-box h1 {
@@ -151,6 +157,9 @@ h2 {
     margin-bottom: 2em;
     border: none;
     outline: none;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--black)
 }
 
 .contact-box .inputbox label {
@@ -177,8 +186,16 @@ h2 {
     border-radius: 5px;
     width: 100%;
     font-weight: bold;
-    color: var(--white);
+    color: var(--black);
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 0px rgba(100%, 100%, 100%, 0.5);
+
+}
+.submit-btn:hover{
     background-color: var(--black);
+    color: var(--white);
+    
+
 }
 
 footer {

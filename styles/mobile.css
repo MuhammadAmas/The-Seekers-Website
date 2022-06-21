@@ -26,14 +26,14 @@
         top: 90px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--black);
-        color: var(--white);
+        background-color: var(--white);
+        color: var(--black);
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
     .navbar ul li a{
-        color: var(--white);
+        color: var(--black);
 
 
     }
