@@ -1,7 +1,4 @@
 :root {
-    /* --black: #000;
-    --white: #fff;
-    --lightBlue: #3065f8; */
     --black: #000;
     --white: #fff;
     --lightBlue: #3065f8;
@@ -78,8 +75,9 @@ h2 {
 
 .navbar ul li a:hover {
     border-bottom: 0;
-    color: var(--lightBlue);
     transition: 0.3s;
+    opacity: 0.5;  
+    
 }
 
 .hamburger {
@@ -243,8 +241,8 @@ footer {
 }
 
 .more-info a:hover {
-    color: var(--lightBlue);
     transition: 0.3s;
+    opacity: 0.5;   
 }
 
 .social-media {
