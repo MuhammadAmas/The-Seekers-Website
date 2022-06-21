@@ -64,6 +64,21 @@ h1, h2{
     transition: 0.3s;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    --webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--black);
+    margin-right: 15px;
+}
 
 .about-us{
     max-width: 60%;
