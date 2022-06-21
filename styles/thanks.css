@@ -9,7 +9,16 @@ body {
     background-color: var(--black);
     color: var(--white);
 
+}
 
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image>img {
+    max-width: 80px;
+    margin: 1em;
 }
 
 .container {
@@ -53,11 +62,11 @@ body {
     color: var(--white)
 }
 
-.btn button:hover{
+.btn button:hover {
     background-color: var(--white);
     color: var(--white);
 }
 
-.btn a:hover{
+.btn a:hover {
     color: var(--black);
 }
