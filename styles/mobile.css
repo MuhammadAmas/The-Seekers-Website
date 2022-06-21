@@ -1,5 +1,37 @@
 @media (max-width: 768px) {
+
+
     .hamburger{
         display: block;
     }
+
+    .videos{
+        display: flex;
+        flex-direction: column;
+    }
+    .videos video{
+        width: 60%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    .more-info{
+        column-count:1;
+        column-gap: 12em;
+        margin: auto 0;
+        text-align: center;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+    }
+
 }
