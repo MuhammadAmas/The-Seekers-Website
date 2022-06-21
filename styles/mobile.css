@@ -44,7 +44,9 @@
     .nav-menu.active {
         left: 0;
     }
-
+    .about-us {
+        max-width: 90%;
+    }
     
     .videos{
         display: flex;
