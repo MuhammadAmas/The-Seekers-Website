@@ -19,7 +19,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-family: 'Cinzel Decorative', cursive;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 
 a {
