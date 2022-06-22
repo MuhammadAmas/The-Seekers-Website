@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 
-    section{
+    section {
         margin: auto 15px;
     }
 
@@ -70,11 +70,12 @@
         width: 70%;
     }
 
-    .quotes{
+    .quotes {
         display: flex;
         flex-direction: column;
     }
-    .quotes > div {
+
+    .quotes>div {
         max-width: 60%;
     }
 
@@ -102,8 +103,6 @@
 
 }
 
-@media(min-width: 768px){
-    html{
-        
-    }
+@media(min-width: 768px) {
+    html {}
 }
