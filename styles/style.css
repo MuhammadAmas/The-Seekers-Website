@@ -12,10 +12,22 @@
 html {
     scroll-behavior: smooth;
     transition: 0.3s;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-attachment: fixed;
+    backface-visibility: 50;
+    background-position: center;
+    background-blend-mode: soft-light;
+    opacity: 1;
+}
+.bg{
+    opacity: .5;
 }
 
 body {
-    background-color: var(--black);
+    /* background-color: var(--black); */
     color: var(--white);
     font-family: 'Cinzel Decorative', cursive;
 }
