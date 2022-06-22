@@ -60,7 +60,7 @@ h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-family: 'Graduate', cursive;
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+    text-shadow: 1.5px 1.5px rgba(255, 255, 255, 0.5);
 }
 
 .navbar {
