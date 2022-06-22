@@ -23,7 +23,7 @@ html {
 
 body {
     /* background-color: var(--black); */
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgba(0, 0, 0,0.6);
 
     color: var(--white);
     font-family: 'Cinzel Decorative', cursive;
