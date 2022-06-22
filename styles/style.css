@@ -19,16 +19,11 @@ html {
     background-attachment: fixed;
     backface-visibility: 50;
     background-position: center;
-    background-blend-mode: soft-light;
-    opacity: 1;
-}
-.bg{
-    opacity: .5;
 }
 
 body {
     /* background-color: var(--black); */
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgba(0, 0, 0,0.9);
 
     color: var(--white);
     font-family: 'Cinzel Decorative', cursive;
