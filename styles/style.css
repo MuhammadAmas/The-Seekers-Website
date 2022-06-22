@@ -262,7 +262,7 @@ form {
 }
 
 footer {
-    background-color: var(--black);
+    /* background-color: var(--black); */
     color: var(--white);
     max-width: 100%;
     margin: 0;
@@ -279,18 +279,18 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2em;
+    /* gap: 2em; */
 }
 
-.footer-logo img {
+/* .footer-logo img {
     max-width: 150px;
     max-height: 150px;
-}
+} */
 
 .email {
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    /* gap: 4px; */
 }
 
 .more-info {
