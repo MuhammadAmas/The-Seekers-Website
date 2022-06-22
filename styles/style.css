@@ -60,6 +60,7 @@ h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-family: 'Graduate', cursive;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .navbar {
@@ -183,7 +184,7 @@ h2 {
 
 .quotes>div {
     padding: 2em;
-    box-shadow: 0 0 10px rgb(255, 255, 255, 0.5);
+    /* box-shadow: 0 0 10px rgb(255, 255, 255, 0.5); */
     border-radius: 8px;
     max-width: 30%;
     height: 20vh;
@@ -194,6 +195,9 @@ h2 {
     text-align: center;
     gap: 0.5em;
 
+}
+.quotes h3{
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 form {
