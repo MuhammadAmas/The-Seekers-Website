@@ -221,7 +221,8 @@ form {
     outline: none;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--black)
+    background-color: transparent;
+    border-bottom: 1px solid;
 }
 
 .contact-box .inputbox label {
