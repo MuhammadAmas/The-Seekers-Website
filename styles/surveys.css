@@ -20,6 +20,7 @@ section {
     justify-content: center;
     margin: 5em auto;
     gap: 3em;
+    text-align: center;
 }
 
 .surveys a {
