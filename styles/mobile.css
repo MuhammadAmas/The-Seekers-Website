@@ -41,8 +41,6 @@
 
     .navbar ul li a {
         color: var(--black);
-
-
     }
 
     .nav-item {
@@ -100,5 +98,4 @@
         align-items: center;
         gap: 2em;
     }
-
 }

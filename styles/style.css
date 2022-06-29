@@ -22,9 +22,7 @@ html {
 }
 
 body {
-    /* background-color: var(--black); */
-    background-color: rgba(0, 0, 0, 0.6);
-
+    background-color: rgba(0, 0, 0, 0.8);
     color: var(--white);
     font-family: 'Cinzel Decorative', cursive;
 }
@@ -95,7 +93,6 @@ h2 {
 
 .navbar ul li a {
     text-decoration: none;
-
     font-size: 1.2rem;
     font-weight: bold;
     border-bottom: 2px solid var(--white);
@@ -105,7 +102,6 @@ h2 {
     border-bottom: 0;
     transition: 0.3s;
     opacity: 0.5;
-
 }
 
 .hamburger {
@@ -163,7 +159,6 @@ h2 {
     width: 100%;
     align-items: center;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
 }
 
 .founders-quotes {
@@ -194,7 +189,6 @@ h2 {
     justify-content: center;
     text-align: center;
     gap: 0.5em;
-
 }
 
 form {
@@ -205,7 +199,6 @@ form {
     position: relative;
     margin: 5% 20% 20% 20%;
     border-radius: 10px;
-
 }
 
 .contact-box h1 {
@@ -253,18 +246,14 @@ form {
     color: var(--black);
     background-color: var(--white);
     box-shadow: 0px 0px 10px 0px rgba(100%, 100%, 100%, 0.5);
-
 }
 
 .submit-btn:hover {
     background-color: var(--black);
     color: var(--white);
-
-
 }
 
 footer {
-    /* background-color: var(--black); */
     color: var(--white);
     max-width: 100%;
     margin: 0;
