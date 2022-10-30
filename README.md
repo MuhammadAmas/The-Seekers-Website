@@ -1,6 +1,12 @@
-<p><h1 align="center"><b>The Seekers </b></h1>
-<h3 align="center"> "The one who seeks is the one who find is the one can leave the World behind"</h3>
-<p>
+<p><h1 align="center">
+<img src="https://theseekers.netlify.app/images/favicon.jpg" width=25% height=5% align="right">
+<b>The Seekers </b>
+</h1>
+
+</p>
+
+<p><h3 align="center"> "The one who seeks is the one who find is the one can leave the World behind"</h3>
+</p>
 
 ##
 
@@ -11,10 +17,9 @@ We come up with this unique idea to know about your thoughts and then can show y
 We are here to make a change in the thoughts of our society by projecting their own thoughts, which will let them know what’s wrong. We survey to know what’s wrong in our thinking and then will provide solutions to get rid of it. We believe as a part of society it’s our duty to take steps towards change, and you can also join us in our Mission.
 
 ## Founder's Message
-"Thoughts Become Reality"
-- Muhammad Amas
-"If you need an answer of big questions, just observe little things"
-- Taha Zaheer
+
+#### "Thoughts Become Reality" — Muhammad Amas
+#### "If you need an answer of big questions, just observe little things" — Taha Zaheer
 
 
 ## Join Us
