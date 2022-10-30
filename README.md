@@ -18,8 +18,10 @@ We are here to make a change in the thoughts of our society by projecting their 
 
 ## Founder's Message
 
-#### "Thoughts Become Reality" — Muhammad Amas
-#### "If you need an answer of big questions, just observe little things" — Taha Zaheer
+#### "Thoughts Become Reality" 
+##### — Muhammad Amas
+#### "If you need an answer of big questions, just observe little things"
+##### — Taha Zaheer
 
 
 ## Join Us
